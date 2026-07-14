@@ -1,0 +1,519 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+
+:root{
+    --primary:#0d6efd;
+    --dark:#1c2331;
+    --light:#f8f9fa;
+    --success:#198754;
+}
+
+body{
+    margin:0;
+    font-family:'Segoe UI',sans-serif;
+    background:#081221;
+    color:white;
+}
+
+/* NAVBAR */
+
+.navbar-autoprime{
+    background:#06101d;
+    padding:18px 0;
+    box-shadow:0 2px 15px rgba(0,0,0,.3);
+}
+
+.navbar-brand{
+    font-size:1.5rem;
+}
+
+.nav-link{
+    color:white !important;
+    margin-left:15px;
+}
+
+.nav-link:hover{
+    color:#00bfff !important;
+}
+
+.btn-inventario{
+    background:#00bfff;
+    color:white;
+    border-radius:30px;
+    padding:8px 20px;
+    font-weight:bold;
+}
+
+/* HERO */
+
+.hero{
+    min-height:80vh;
+    display:flex;
+    align-items:center;
+    text-align:center;
+    background:
+    linear-gradient(
+    rgba(6,16,29,.85),
+    rgba(6,16,29,.85)),
+    url("https://images.unsplash.com/photo-1503376780353-7e6692767b70");
+    
+    background-size:cover;
+    background-position:center;
+}
+
+.hero h1{
+    font-size:4rem;
+    font-weight:800;
+}
+
+.hero p{
+    max-width:700px;
+    margin:auto;
+    margin-top:20px;
+    margin-bottom:30px;
+    font-size:1.2rem;
+}
+
+.btn-principal{
+    background:#00bfff;
+    color:white;
+    padding:15px 40px;
+    border-radius:40px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+/* MISION Y VISION */
+
+.info-card{
+    background:#102238;
+    border:none;
+    border-radius:20px;
+    color:white;
+    padding:20px;
+    min-height:250px;
+    box-shadow:0 8px 20px rgba(0,0,0,.3);
+}
+
+.info-card h3{
+    color:#00bfff;
+    margin-bottom:20px;
+}
+
+/* FOOTER */
+
+.footer-autoprime{
+    background:#06101d;
+    padding:25px;
+    text-align:center;
+    margin-top:50px;
+}
+
+/* LOGIN AUTOPRIME PREMIUM*/
+
+.login-body{
+
+    min-height:100vh;
+
+    background:
+    linear-gradient(
+    rgba(4,10,20,.85),
+    rgba(4,10,20,.90)),
+    url("../img/banner-car.jpg");
+
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+.login-overlay{
+
+    min-height:100vh;
+
+    display:flex;
+
+    justify-content:center;
+
+    align-items:center;
+
+    padding:30px;
+}
+
+.login-container{
+
+    width:450px;
+
+    backdrop-filter:blur(15px);
+
+    background:rgba(255,255,255,.08);
+
+    border:1px solid rgba(255,255,255,.15);
+
+    border-radius:25px;
+
+    padding:40px;
+
+    color:white;
+
+    box-shadow:
+    0 20px 50px rgba(0,0,0,.45);
+}
+
+.login-logo{
+
+    font-size:2rem;
+
+    font-weight:800;
+
+    text-align:center;
+
+    margin-bottom:10px;
+
+    color:#00bfff;
+}
+
+.login-container h2{
+
+    text-align:center;
+
+    margin-bottom:10px;
+
+    font-weight:700;
+}
+
+.login-subtitle{
+
+    text-align:center;
+
+    color:#d0d0d0;
+
+    margin-bottom:30px;
+}
+
+.login-container label{
+
+    margin-bottom:8px;
+
+    font-weight:600;
+}
+
+.login-container .form-control{
+
+    background:rgba(255,255,255,.12);
+
+    border:1px solid rgba(255,255,255,.20);
+
+    color:white;
+
+    padding:12px;
+}
+
+.login-container .form-control:focus{
+
+    background:rgba(255,255,255,.15);
+
+    color:white;
+
+    border-color:#00bfff;
+
+    box-shadow:
+    0 0 15px rgba(0,191,255,.4);
+}
+
+.btn-login{
+
+    width:100%;
+
+    background:#00bfff;
+
+    border:none;
+
+    color:white;
+
+    font-weight:700;
+
+    padding:14px;
+
+    border-radius:12px;
+
+    transition:.3s;
+}
+
+.btn-login:hover{
+
+    background:#0099cc;
+
+    transform:translateY(-2px);
+}
+
+.volver{
+
+    color:#00bfff;
+
+    text-decoration:none;
+}
+
+.volver:hover{
+
+    color:white;
+}
+
+
+/* MENU */
+
+.navbar-brand{
+    font-size:1.5rem;
+    color:white !important;
+}
+
+.nav-link{
+    color:white !important;
+    margin-left:15px;
+    font-weight:500;
+}
+
+.nav-link:hover{
+    color:#00bfff !important;
+}
+
+.btn-inventario{
+    background:#00bfff;
+    color:white !important;
+    border-radius:30px;
+    padding:10px 22px;
+    text-decoration:none;
+    font-weight:bold;
+}
+
+.btn-inventario:hover{
+    background:#0099cc;
+}
+
+/* CABECERA NOSOTROS */
+
+.hero-small{
+    background:#081221;
+    color:white;
+    padding:80px 0;
+}
+/*Menu de dashboard*/
+
+.sidebar h4{
+    color:white;
+    text-align:center;
+    margin-bottom:30px;
+}
+
+.menu-item{
+    display:block;
+    width:100%;
+    padding:12px 15px;
+    color:#d1d5db;
+    text-decoration:none;
+    border-radius:10px;
+    margin-bottom:8px;
+    transition:0.3s;
+}
+
+.menu-item:hover{
+    background:#0d6efd;
+    color:white;
+    text-decoration: none;
+}
+
+/* Opción activa */
+.menu-item.active{
+    background:#198754;
+    color:white;
+}
+
+
+/* Cerrar sesión */
+.menu-item.logout{
+    margin-top:20px;
+}
+
+.submenu{
+    margin-left:15px;
+    margin-bottom:10px;
+}
+
+.submenu a{
+    display:block;
+    color:#9ca3af;
+    text-decoration:none;
+    padding:8px 10px;
+    border-radius:8px;
+}
+
+.submenu a:hover{
+    background:#1e293b;
+    color:white;
+}
+
+.logout{
+    margin-top:40px;
+    background:#dc3545;
+    color:white !important;
+    text-align:center;
+}
+
+
+/* DASHBOARD FIJO */
+
+.dashboard-body{
+
+    overflow-x:hidden;
+
+}
+
+/* Menu lateral fijo */
+
+.sidebar{
+
+    position:fixed;
+    top:0;
+    left:0;
+    width:250px;
+    min-height:100vh;
+    background:#06101d;
+    padding:20px;
+    overflow-y:auto;
+    z-index:1000;
+}
+
+/* Contenido del sistema */
+
+.col-md-10{
+
+    margin-left:250px;
+    height:100vh;
+    overflow-y:hidden;
+    padding:25px;
+}
+
+
+/* AJUSTE DEL CONTENIDO */
+.dashboard-content{
+
+    margin-left:250px;
+    height:100vh;
+    padding:25px;
+
+}
+/* TABLA CON SCROLL INTERNO */
+.table-responsive{
+    width:100%;
+    white-space:nowrap;
+    overflow-x:auto;
+}
+
+.table{
+    width:100%;
+    white-space:nowrap;
+}
+
+.table-responsive table{
+    width:100%;
+}
+
+.table th,
+.table td{
+    text-align:center;
+    vertical-align:middle;
+    padding:12px;
+    white-space:nowrap;
+}
+
+.table-responsive td:last-child{
+    min-width:180px;
+}
+
+.card{
+    border-radius:15px;
+}
+
+/* ENCABEZADO DE TABLA FIJO */
+.table thead th{
+
+    position:sticky;
+    top:0;
+    z-index:2;
+
+}
+
+/* CONTROL DE TABLAS DEL SISTEMA */
+
+.tabla-card{
+
+    height:70vh;
+    overflow:hidden;
+
+}
+/*TABLET*/
+
+@media(max-width:992px){
+
+    .sidebar{
+
+        width:220px;
+
+    }
+
+
+    .dashboard-content{
+
+        margin-left:220px;
+
+        padding:20px;
+
+    }
+
+}
+
+
+
+/*CELULAR*/
+
+@media(max-width:768px){
+
+
+    .sidebar{
+
+        position:relative;
+
+        width:100%;
+
+        height:auto;
+
+        min-height:auto;
+
+    }
+
+
+    .dashboard-content{
+
+        margin-left:0;
+
+        padding:15px;
+
+    }
+
+
+    .table-responsive{
+
+        overflow-x:auto;
+
+    }
+
+
+    .card{
+
+        margin-bottom:15px;
+
+    }
+
+
+}
